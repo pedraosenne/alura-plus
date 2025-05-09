@@ -28,31 +28,24 @@ body {
 }
 
 .principal {
-
     background-image: url("img/Background.png");
-
     background-repeat: no-repeat;
-
     background-size: contain;
-
     align-items: center;
-
     text-align: center;
-
 }
 
 .container {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
-
 }
 
 .container_caixa {
     margin: 0 6em;
 }
 
-.container_titulo {
+.container__titulo {
     font-size: 28px;
     font-weight: 700;
 }
@@ -80,35 +73,40 @@ body {
     font-size: 12px;
     color: var(--cinza-secundario);
 }
-  .secundario {
-align-items: center;
-margin: 0 10em;
 
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+ 
+.secundario {
+    align-items: center;
+    margin: 0 10em;
 }
+
 .secundario imagem {
-width: 80%;
+    width: 80%;
 }
+
 .container descricao {
-padding: 2em;
+    padding: 2em;
 }
 
 .descricao titulo {
-font-weight: 700;
-font-size: 48px;
-color: var(--branco-principal);
-margin-bottom: 0.1em;
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
 
 }
+
 .descricao texto {
-color: var(--cinza-secundario);
+    color: var(--cinza-secundario);
 }
- .descricao texto {
-color: var(--cinza-secundario);
 
+.descricao texto {
+    color: var(--cinza-secundario);
 }
+
 .secundario botao {
-display:
-inline-block;
-margin-top: 1em;
-
+    display:
+    inline-block;
+    margin-top: 1em;
 }
